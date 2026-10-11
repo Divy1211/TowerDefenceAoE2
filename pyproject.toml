@@ -1,0 +1,14 @@
+[project]
+name = "TowerDefence"
+version = "0.1.0"
+description = "Alian's TD Map"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aoe2scenarioparser>=0.9.6",
+    "genie-dat-parser",
+    "regex>=2026.9.29",
+]
+
+[tool.uv.sources]
+genie-dat-parser = { path = "gdp", editable = true }

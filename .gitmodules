@@ -1,0 +1,6 @@
+[submodule "prelude"]
+	path = prelude
+	url = https://github.com/Divy1211/AspPrelude
+[submodule "gdp"]
+	path = gdp
+	url = https://github.com/Divy1211/GenieDatParser.git
