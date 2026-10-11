@@ -30,7 +30,7 @@ def create_scx(out_mod_path: Path | None):
     if out_mod_path is not None:
         scx.write_to_file(str(out_mod_path / "resources" / "_common" / "scenario" / out_name))
     else:
-        scx.write_to_file(Paths.SCENARIO_DIR + "!test_" + out_name)
+        scx.write_to_file(Paths.SCENARIO_DIR + "!dev_" + out_name)
 
 
 if __name__ == '__main__':
