@@ -7,6 +7,8 @@ Setup:
   - Clone with `git clone --recurse-submodules https://github.com/Divy1211/TowerDefenceAoE2.git`
   - `cd` into the cloned folder and run `uv sync`
   - Change the steam ID in `prelude.common_vars.py` to your own.
-  - Run with `uv run python -m src.main`
+  - On powershell, set the `PYTHONPATH` as follows:
+    - `$env:PYTHONPATH = ".;.\src"`
+  - Run with `uv run python -m main`
   - Optionally: You may want to symlink the `src/xs` folder to your profile folder's `xs/TowerDefence`
     - On windows, this can be done using `mklink /D link_dir target_dir`
