@@ -8,3 +8,5 @@ Setup:
   - `cd` into the cloned folder and run `uv sync`
   - Change the steam ID in `prelude.common_vars.py` to your own.
   - Run with `uv run python -m src.main`
+  - Optionally: You may want to symlink the `src/xs` folder to your profile folder's `xs/TowerDefence`
+    - On windows, this can be done using `mklink /D link_dir target_dir`

@@ -17,9 +17,9 @@ def clone[T: BaseStruct](struct: T) -> T:
     return struct.from_bytes(struct.to_bytes(), ver = struct.ver)
 
 def create_dat(out_mod_path: Path | None):
-    TD_XS = Path(Paths.XS_DIR + "TowerDefence")
+    TD_XS = Path(__file__).parent.parent / "xs"
 
-    dat = DatFile.from_file(r"C:\Program Files (x86)\Steam\steamapps\common\AoE2DE\resources\_common\dat\empires2_x2_p1.dat")
+    dat = DatFile.from_file(Paths.DAT_FILE)
 
     xs = XsWriter(TD_XS / "DataConstants.xs")
 
