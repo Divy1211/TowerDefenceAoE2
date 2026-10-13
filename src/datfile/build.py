@@ -109,7 +109,7 @@ def create_dat(out_mod_path: Path | None):
                 outfile.write(
                     infile.read()
                         .replace("TowerDefenceDev", "TowerDefence")
-                        .replace("include \"TowerDefenceDev\\Effects.xs\";\n", "")
+                        .replace("include \"TowerDefenceDev\\Effects.xs\";", "include \"TowerDefenceDev\\Constants.xs\";")
                 )
 
 if __name__ == '__main__':
