@@ -4,16 +4,16 @@ requires-python = ">=3.13"
 
 [[package]]
 name = "aoe2scenarioparser"
-version = "0.9.6"
+version = "0.9.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "deprecation" },
     { name = "ordered-set" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/de/88/011c342adc0340f7d8364157f3ed7be59a5d078643e5548e5f953962063b/aoe2scenarioparser-0.9.6.tar.gz", hash = "sha256:e93afc5cc4dd1960c6aaa3d9308b3ee533d123761b5b408741a989670daccecd", size = 2191155 }
+sdist = { url = "https://files.pythonhosted.org/packages/fe/70/8b2a13c49c6df88ca4876360257b1adafe59e902bab7ff76e08c71b208d1/aoe2scenarioparser-0.9.7.tar.gz", hash = "sha256:dfcfa9872307927644d75d888589d52f5f7ff5d6826b2b27208d58b5804eb00c", size = 2192262 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/51/e4/cf67d48856bbda92edeaf2c17df99b094369a6d2927cb45c77d8dadc7d84/aoe2scenarioparser-0.9.6-py3-none-any.whl", hash = "sha256:5d62acc2f8d9b513e7735ad208bbf5ffe1ca3497414febdf0acec1071f3f6939", size = 2289743 },
+    { url = "https://files.pythonhosted.org/packages/f8/3a/f0cc6dc4ff4758847bcfa4a27a58fa0c0e02a79900bb36fb5da7416ee863/aoe2scenarioparser-0.9.7-py3-none-any.whl", hash = "sha256:28bc94e36d604dbe0382b30c22bec8c47e75a4ca1f1ba0af18eab172e9b484ef", size = 2291157 },
 ]
 
 [[package]]
@@ -211,7 +211,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "aoe2scenarioparser", specifier = ">=0.9.6" },
+    { name = "aoe2scenarioparser", specifier = ">=0.9.7" },
     { name = "genie-dat-parser", editable = "gdp" },
     { name = "regex", specifier = ">=2026.9.29" },
 ]

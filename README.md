@@ -11,5 +11,5 @@ Follow these steps to set up and build the mod:
   - On powershell, set the `PYTHONPATH` as follows:
     - `$env:PYTHONPATH = ".;.\src"` (This changes the `PYTHONPATH` only for the current session)
   - Run with `uv run python -m main`
-  - Optionally: You may want to symlink the `src/xs` folder to your profile folder's `xs/TowerDefence`
+  - Optionally: You may want to symlink the `src/xs` folder to your profile folder's `xs/TowerDefenceDev`
     - On windows, this can be done using `mklink /D link_dir target_dir`

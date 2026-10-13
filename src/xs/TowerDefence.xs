@@ -1,5 +1,7 @@
-include "TowerDefence\Constants.xs";
-include "TowerDefence\Utils.xs";
+// include "TowerDefenceDev\Constants.xs";
+include "TowerDefenceDev\Utils.xs";
+
+include "TowerDefenceDev\Effects.xs";
 
 void resetDamageClass(int objectId = -1, int type_ = -1) {
     for(class_ = cDamageClassInfantry; < cNumDamageClasses) {
