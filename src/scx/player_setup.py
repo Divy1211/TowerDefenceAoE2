@@ -36,10 +36,10 @@ def player_setup(scx: AoE2DEScenario):
         player.population_cap = 200
 
         player.disabled_buildings = [
-            # BuildingInfo.HOUSE.ID,
-            # BuildingInfo.MILL.ID,
-            # BuildingInfo.MINING_CAMP.ID,
-            # BuildingInfo.LUMBER_CAMP.ID,
+            BuildingInfo.HOUSE.ID,
+            BuildingInfo.MILL.ID,
+            BuildingInfo.MINING_CAMP.ID,
+            BuildingInfo.LUMBER_CAMP.ID,
             BuildingInfo.DOCK.ID,
             BuildingInfo.FARM.ID,
             BuildingInfo.BLACKSMITH.ID,
